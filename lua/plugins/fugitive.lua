@@ -3,7 +3,7 @@ return {
   event = { 'BufReadPost', 'BufWritePost', 'BufNewFile' },
   keys = {
     { '<leader>gb', ':Git blame<CR>', mode = 'n', desc = 'Blame' },
-    { '<leader>gd', ':Gdiffsplit<CR>', mode = 'n', desc = 'Diff split' },
+    { '<leader>gd', ':Gvdiffsplit<CR>', mode = 'n', desc = 'Diff split' },
 
     -- Moves cursor to the right split
     -- { '<leader>gd', ':Gdiffsplit<CR>:wincmd l<CR>', mode = 'n', desc = 'Diff' },

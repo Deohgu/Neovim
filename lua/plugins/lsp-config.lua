@@ -172,6 +172,7 @@ return { -- LSP Configuration & Plugins
         },
       },
       cssls = {},
+      angularls = {},
     }
 
     require('mason').setup()
@@ -194,6 +195,7 @@ return { -- LSP Configuration & Plugins
       'tsserver',
       'jsonls',
       'cssls',
+      'angularls',
     })
     require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
